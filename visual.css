@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  iframe {
+    height: 85vh !important;
+    border: none;
+  }
+  
+  h1.handcoding {
+    font-size: 2.85em;
+    margin: 0.5em;
+    max-width: 980px;
+    font-family: monospace;
+  }
+  
+  a {
+  color: black !important;
+  }
+  a:focus {
+    outline: 0;
+  }
+  
+  h2.handcoding {
+    font-size: 2.125em;
+    margin: 0.5em 0.5em 1.5em 0.5em;
+    max-width: 980px;
+    font-family: monospace;
+  }
+  
+  .thinking {
+    background: black;
+    font-family: monospace;
+  }
+  
+  .hide-the-text-from-view-because-im-going-to-read-it-in-the-browser-inspector {
+    color: hotpink;
+    font-size: 1.75em;
+  }
+  
+  .inside-here-are-images {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto 10px auto;
+  }
+  
+  .inside-here-are-images iframe,
+  .inside-here-are-images img,
+  .inside-here-are-images video {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto 0 auto;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid iframe {
+    width: 50% !important;
+    height: 60vh;
+    border: none;
+  }
