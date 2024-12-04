@@ -51,8 +51,9 @@ let second = document.getElementById('second-layer');
 let third = document.getElementById('third-layer');
 
 document.addEventListener("scroll", function(event) {
+    // console.log(window)
     let topScroll = window.scrollY;
-
+    console.log(topScroll)
     first.style.top = 0.4 * topScroll + 'px';
     second.style.top = 0.2 * topScroll + 'px'; 
     third.style.top = 0.1 * topScroll + 'px';
